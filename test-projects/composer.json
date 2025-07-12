@@ -1,0 +1,20 @@
+{
+    "name": "testmodule/sanctification",
+    "description": "This is just a test file",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Testmodule\\Sanctification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sanctification"
+        }
+    ],
+    "minimum-stability": "dev"
+}
