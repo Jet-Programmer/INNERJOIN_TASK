@@ -1,0 +1,34 @@
+
+// creating a simple basic calculator
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="entity.php" method="GET">
+        num_1: <input type="number" name="num_1">
+        <br>
+        num_2: <input type="number" name="num_2">
+        <br>
+        <input type="submit">
+    </form>
+/*<?php 
+    Anwer: echo $_GET["num_1"] + $_GET["num_2"]
+?>*/
+</body>
+</html> -->
+
+// Taks to <!DOCTYPE>
+/* 
+- Create a Mad Lib getMessage
+Advance the calculator model using conditionals and flow control
+build a basic sign up form: Ignore database for now; Use basic GET, POST methods
+Understand the array methods properly.
+Explore PHP data structures in depth; more focus on maps and associative arrays
+Figure how to loop trhough an array of arrays: multi-dimensional associative array
+Create a simple Brand survey for clothes purchasing using PHP form and give allow users check if an item is available or not.
+*/
+
