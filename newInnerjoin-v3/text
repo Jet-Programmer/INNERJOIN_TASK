@@ -1,0 +1,16 @@
+        <table>
+            <tr>
+                <th>CustomerID</td>
+                <th>OrderID</td>
+                <th>Name</td>
+                <th>Country</td>
+                <th>Product</td>
+            </tr>
+            <tr>
+                <td><?php echo $table1[0]['customerID']; ?></td>
+                <td><?php echo $table1[0]['orderID']; ?></td>
+                <td><?php echo $table2[0]['customerName']; ?></td>
+                <td><?php echo $table2[0]['Country']; ?></td>
+                <td><?php echo $table1[0]['Product']; ?></td>
+            </tr>
+        </table>
