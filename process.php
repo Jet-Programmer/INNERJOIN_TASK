@@ -52,9 +52,57 @@
                     return $result;
                 }
                 $joinedTable = inner_join($table1, $table2);
-                print_r($joinedTable);
             }
 ?>
+        <table>
+            <th>CustomerId</th>
+            <th>OrderID</th>
+            <th>Product</th>
+            <th>CustomerName</th>
+            <th>Country</th>
+            <tr>
+                <td><?php
+                    if (isset($joinedTable)){
+                        foreach ($joinedTable as $x){
+                            echo $x["customerID"];
+                        }
+                    }
+                    ?></td>
+                <td>
+                    <?php
+                    if (isset($joinedTable)){
+                        foreach ($joinedTable as $x){
+                            echo $x["orderID"];
+                        }
+                    }?>
+                </td>
+                <td>
+                    <?php
+                    if (isset($joinedTable)){
+                        foreach ($joinedTable as $x){
+                            echo $x["Product"];
+                        }
+                    }?>
+                </td>
+                <td>
+                    <?php
+                    if (isset($joinedTable)){
+                        foreach ($joinedTable as $x){
+                            echo $x["customerName"];
+                        }
+                    }?>
+                </td>
+                <td>
+                    <?php
+                    if (isset($joinedTable)){
+                        foreach ($joinedTable as $x){
+                            echo $x["Country"];
+                        }
+                    }?>
+                </td>
+            </tr>
+
+        </table>
     </div>
 </body>
 
